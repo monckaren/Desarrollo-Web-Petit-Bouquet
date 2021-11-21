@@ -1,0 +1,238 @@
+/*Fuentes y estilos utilizadas en secciones del index.html*/
+.seccion-contacto, .seccion-nosotros, main .button, main .seccion-menu, main .seccion-presentacion {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+}
+
+/*Estilos para la seccion de almuerzos.html*/
+body main .grupo-2, body main .grupo-1 {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin-left: 150px;
+}
+
+/*Settings generales*/
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body header nav div .navbar {
+  position: fixed !important;
+  margin-top: 0;
+}
+
+/*Estilos index.html*/
+main .seccion-presentacion {
+  background-image: url(./../Images/angelo-pantazis-2-U0A2tNYhM-unsplash-min.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+  height: 500px;
+  padding: 150px 0px;
+  margin-top: 20px;
+}
+main .seccion-menu {
+  color: black;
+  background-size: contain;
+  font-size: 20px;
+  width: 90%;
+  height: 300px;
+  width: 90%;
+  margin-top: 100px;
+}
+main .button {
+  color: purple;
+  border: 2px solid #2b145f;
+  border-radius: 10px;
+  margin: 1em;
+  font-size: 20px;
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;
+}
+main .button:hover {
+  background-color: white;
+  color: black;
+  padding: 8px;
+}
+
+.seccion-nosotros {
+  background-image: url("./../Images/wade-austin-ellis-oL1qyesmg78-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  font-size: 20px;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  padding: 150px 0px;
+}
+
+.seccion-contacto {
+  color: #424141;
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+}
+
+/*Mapa ubicacion GoogleMpas*/
+.inframe {
+  width: 90%;
+  margin: auto;
+}
+
+/*Fuentes y estilos utilizadas en secciones del index.html*/
+main .seccion-presentacion, main .seccion-menu, main .button, .seccion-nosotros, .seccion-contacto {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+}
+
+/*Estilos para la seccion de almuerzos.html*/
+body main .grupo-2, body main .grupo-1 {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin-left: 150px;
+}
+
+/*Estilos Almuerzos.html*/
+body main .grupo-1 {
+  gap: 50px;
+}
+body main .grupo-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Estilos para el footer de todos los html*/
+.footer {
+  font-family: font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  background-color: #424141;
+  color: white;
+  margin-top: 20px;
+  align-items: center;
+}
+.footer div .azul {
+  color: turquoise;
+}
+
+.titulo {
+  color: #f3a30e;
+  text-align: center;
+}
+
+.blanco {
+  color: white;
+}
+
+/*Defino fuente de parrafo*/
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Titulos con color azul */
+.azul {
+  color: turquoise;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*Estilos para fuentes en general*/
+h2, h3 {
+  text-align: left;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Catamaran", sans-serif;
+  color: #078175;
+}
+
+.menu {
+  font-family: "Abril Fatface", cursive;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  color: turquoise;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-subtitulo {
+  font-family: "Abril Fatface", cursive;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Query*/
+/* Mobile*/
+@media screen and (max-width: 480px) {
+  .header-inicio {
+    font-size: 15px;
+    justify-content: center;
+    background-size: auto;
+  }
+
+  .seccion-presentacion {
+    background-image: url(./Images/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
+    text-align: center;
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .seccion-nosotros {
+    font-size: 15px;
+  }
+
+  .nosotros strong {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin: o auto;
+  }
+
+  .footer {
+    width: 100%;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  .carousel {
+    /*display: none;*/
+    display: inline-block;
+  }
+}
+/*Screen*/
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  .seccion-nosotros {
+    background-size: 1400px;
+  }
+
+  .seccion-menu {
+    height: 600px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

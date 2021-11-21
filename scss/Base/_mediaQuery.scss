@@ -1,0 +1,75 @@
+
+@import '../Base/_mixin';
+
+
+/* Media Query*/
+
+/* Mobile*/
+
+@media screen and (max-width: 480px) {
+    
+
+    .header-inicio {
+        font-size:15px ;
+        justify-content: center;
+        background-size: auto;
+        
+
+        
+    }
+    .seccion-presentacion {
+        background-image:url(./Images/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
+        text-align: center;
+         @include varios-parametros(100%,flex,15px);
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+      
+        
+    }
+
+
+    .button{
+        display: none;
+    }
+
+    .seccion-nosotros {
+        font-size: 15px
+        
+        
+    }
+    .nosotros strong {
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        margin: o auto;
+          }
+    .footer {
+        @include varios-parametros (100%,inline-block,15px);
+        
+    }
+    
+
+    .carousel  {
+    /*display: none;*/
+    display: inline-block;
+    }
+    
+}
+
+/*Screen*/
+@media screen and (min-width: 481px) and (max-width: 960px) {
+   
+   .seccion-nosotros {
+       background-size: 1400px;
+   }
+   .seccion-menu{
+       height: 600px;
+   }
+  
+
+}
+
+
+   

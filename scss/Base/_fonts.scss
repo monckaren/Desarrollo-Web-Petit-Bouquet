@@ -1,0 +1,54 @@
+//propiedades y estilos especificos para titulos
+.titulo {
+color: nth($colores, 1 );
+text-align: center;
+}
+
+.blanco {
+color: nth($colores, 2 );
+}
+
+
+    /*Defino fuente de parrafo*/
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Titulos con color azul */
+.azul {
+    color:turquoise;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Estilos para fuentes en general*/
+h2, h3 {
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Catamaran', sans-serif;
+    color: nth($colores, 7);
+    
+
+}
+
+.menu {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: turquoise;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.menu-subtitulo {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}

@@ -1,0 +1,7 @@
+//Mixin
+
+@mixin varios-parametros ($ancho,$display,$font-size){
+    width: $ancho;
+    display: $display;
+    font-size: $font-size;
+}

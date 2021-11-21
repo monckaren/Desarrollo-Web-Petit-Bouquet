@@ -1,0 +1,104 @@
+@import '../Base/colores';
+@import '../Base/extends';
+
+
+/*Settings generales*/
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    header {
+        nav{
+           div{
+            .navbar{
+                position: fixed !important;
+                margin-top: 0;
+            }  
+           }
+           
+            }
+            }
+        }
+    
+       
+
+/*Estilos index.html*/
+//nesting Index.html
+main {
+    .seccion-presentacion{
+        @extend %fuentes;
+        background-image: url(./../Images/angelo-pantazis-2-U0A2tNYhM-unsplash-min.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
+        height: 500px;
+        padding: 150px 0px;
+        margin-top: 20px;
+    }
+    .seccion-menu{
+            @extend %fuentes;
+            color: black;
+            background-size: contain;
+            font-size: 20px;
+            width: 90%;
+            height: 300px;
+            width: 90%;
+            margin-top: 100px;
+            
+         
+            
+        }
+        .button{
+        color: purple;
+        @extend %fuentes;
+        border: 2px solid rgb(43, 20, 95);
+        border-radius: 10px;
+        margin: 1em;
+        font-size: 20px;
+        padding: 10px;
+        background-color: nth($colores, 2 );
+        text-decoration: none; 
+
+        &:hover {
+            background-color: white;
+            color: black;
+            padding: 8px;
+        }
+       
+            }
+        }
+         
+         .seccion-nosotros{
+        background-image: url('./../Images/wade-austin-ellis-oL1qyesmg78-unsplash.jpg');
+        @extend %fuentes;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        font-size: 20px;
+        height: 500px;
+        width: 90%;
+        margin: auto; 
+        padding: 150px 0px;
+        }
+        .seccion-contacto{
+            @extend %fuentes;
+            color: nth($colores, 6 );
+            flex-wrap: wrap;
+            font-size: 20px;
+            padding: 10px;
+            width: 100%;
+            margin: auto;
+}
+
+
+/*Mapa ubicacion GoogleMpas*/
+.inframe{
+    width: 90%;  
+    margin: auto;
+}
+

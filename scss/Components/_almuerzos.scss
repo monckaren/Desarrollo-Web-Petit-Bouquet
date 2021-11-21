@@ -1,0 +1,33 @@
+@import '../Base/extends';
+
+
+/*Estilos Almuerzos.html*/ 
+
+body{
+  main {
+  
+     .grupo-1{
+    @extend %almuerzos;
+    gap: 50px;
+    
+}
+    
+
+  .grupo-2{
+    @extend %almuerzos;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}  
+  }
+}
+
+
+
+  
+
+
+
+   
+
+
