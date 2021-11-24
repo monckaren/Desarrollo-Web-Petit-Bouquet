@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 480px) {
     
-
+/*Index.html*/
     .header-inicio {
         font-size:15px ;
         justify-content: center;
@@ -28,6 +28,12 @@
         
     }
 
+    .seccion-menu {
+        justify-content: center;
+      width: 100%;
+      height: 60px;
+    }
+
 
     .button{
         display: none;
@@ -45,17 +51,30 @@
         color: white;
         margin: o auto;
           }
+    .seccion-contacto {
+        font-size: 13px;
+    }
+
+    /*Footer todas las paginas*/
     .footer {
-        @include varios-parametros (100%,inline-block,15px);
+        @include varios-parametros (90%,inline-block,13px);
         
     }
     
-
+    /*Brunch.html*/
     .carousel  {
     /*display: none;*/
     display: inline-block;
     }
     
+    /*Cafeteria.html*/
+    .cafeteria {
+        @include varios-parametros (100%, inline-block, 15px);
+    }
+    .imagenes-cafeteria {
+       margin-left: 50px;
+       gap: 5px;
+    }
 }
 
 /*Screen*/

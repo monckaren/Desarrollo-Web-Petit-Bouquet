@@ -41,11 +41,7 @@ main .seccion-presentacion {
 }
 main .seccion-menu {
   color: black;
-  background-size: contain;
-  font-size: 20px;
-  width: 90%;
   height: 300px;
-  width: 90%;
   margin-top: 100px;
 }
 main .button {
@@ -162,7 +158,7 @@ h2, h3 {
   font-family: "Abril Fatface", cursive;
   font-family: "Catamaran", sans-serif;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 50px;
+  font-size: 55px;
   color: turquoise;
   display: flex;
   justify-content: center;
@@ -180,6 +176,7 @@ h2, h3 {
 /* Media Query*/
 /* Mobile*/
 @media screen and (max-width: 480px) {
+  /*Index.html*/
   .header-inicio {
     font-size: 15px;
     justify-content: center;
@@ -195,6 +192,12 @@ h2, h3 {
     justify-content: center;
     flex-direction: column;
     height: 400px;
+  }
+
+  .seccion-menu {
+    justify-content: center;
+    width: 100%;
+    height: 60px;
   }
 
   .button {
@@ -213,15 +216,33 @@ h2, h3 {
     margin: o auto;
   }
 
+  .seccion-contacto {
+    font-size: 13px;
+  }
+
+  /*Footer todas las paginas*/
   .footer {
+    width: 90%;
+    display: inline-block;
+    font-size: 13px;
+  }
+
+  /*Brunch.html*/
+  .carousel {
+    /*display: none;*/
+    display: inline-block;
+  }
+
+  /*Cafeteria.html*/
+  .cafeteria {
     width: 100%;
     display: inline-block;
     font-size: 15px;
   }
 
-  .carousel {
-    /*display: none;*/
-    display: inline-block;
+  .imagenes-cafeteria {
+    margin-left: 50px;
+    gap: 5px;
   }
 }
 /*Screen*/
