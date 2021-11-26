@@ -45,8 +45,7 @@ main {
             color: black;
             height: 300px;
             margin-top: 100px;
-            
-         
+        
             
         }
         .button{
@@ -58,12 +57,14 @@ main {
         font-size: 20px;
         padding: 10px;
         background-color: nth($colores, 2 );
-        text-decoration: none; 
+        
+        
 
         &:hover {
             background-color: white;
             color: black;
             padding: 8px;
+            border: 2px solid gray;
         }
        
             }

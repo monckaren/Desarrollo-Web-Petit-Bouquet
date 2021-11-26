@@ -7,7 +7,7 @@
   text-align: center;
   background-color: nth($colores, 6 );
   color: nth($colores, 2 );
-  margin-top: 20px;
+ padding-top: 20px;
   align-items: center;
   
   
@@ -15,5 +15,19 @@
       .azul{
           color: nth($colores, 5 );
       }
+      .social {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        margin: 20px;
+       display: inline;
+        
+      }
+      .social-1 .social-2 {
+        background-color: nth($colores, 2 );
+       
+      }
+      
+     
   }
 }  

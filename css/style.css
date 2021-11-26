@@ -52,12 +52,12 @@ main .button {
   font-size: 20px;
   padding: 10px;
   background-color: white;
-  text-decoration: none;
 }
 main .button:hover {
   background-color: white;
   color: black;
   padding: 8px;
+  border: 2px solid gray;
 }
 
 .seccion-nosotros {
@@ -118,11 +118,21 @@ body main .grupo-2 {
   text-align: center;
   background-color: #424141;
   color: white;
-  margin-top: 20px;
+  padding-top: 20px;
   align-items: center;
 }
 .footer div .azul {
   color: turquoise;
+}
+.footer div .social {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 20px;
+  display: inline;
+}
+.footer div .social-1 .social-2 {
+  background-color: white;
 }
 
 .titulo {
