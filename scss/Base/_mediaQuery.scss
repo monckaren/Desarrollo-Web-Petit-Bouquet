@@ -58,7 +58,8 @@
 
     /*Footer todas las paginas*/
     .footer {
-        @include varios-parametros (90%,inline-block,13px);
+        @include varios-parametros (100%,inline-block,13px);
+        flex-direction: row;
         
     }
     
