@@ -62,11 +62,17 @@
         flex-direction: row;
         
     }
+
+    .social-1, .social-2 {
+        display:inline;
+    }
     
     /*Brunch.html*/
     .carousel  {
     /*display: none;*/
     display: inline-block;
+     
+
     }
     
     /*Cafeteria.html*/
@@ -74,7 +80,7 @@
         @include varios-parametros (100%, inline-block, 15px);
     }
     .imagenes-cafeteria {
-       margin-left: 50px;
+    margin-left: 50px;
      margin-left: 50px;
     }
 }
