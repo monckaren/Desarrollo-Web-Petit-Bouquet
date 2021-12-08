@@ -1,5 +1,5 @@
 /*Fuentes y estilos utilizadas en secciones del index.html*/
-.seccion-contacto, .seccion-nosotros, main .button, main .seccion-menu, main .seccion-presentacion {
+.seccion-contacto, .seccion-nosotros, main .btn, main .seccion-menu, main .seccion-presentacion {
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   align-items: center;
@@ -44,20 +44,18 @@ main .seccion-menu {
   height: 300px;
   margin-top: 100px;
 }
-main .button {
-  color: purple;
+main .btn {
+  color: purple !important;
   border: 2px solid #2b145f;
   border-radius: 10px;
   margin: 1em;
   font-size: 20px;
   padding: 10px;
   background-color: white;
+  text-decoration: none;
 }
-main .button:hover {
-  background-color: white;
-  color: black;
-  padding: 8px;
-  border: 2px solid gray;
+main .non-underline-link {
+  text-decoration: none;
 }
 
 .seccion-nosotros {
@@ -66,10 +64,11 @@ main .button:hover {
   background-repeat: no-repeat;
   background-position-y: center;
   font-size: 20px;
-  height: 500px;
+  height: 400px;
   width: 90%;
   margin: auto;
   padding: 150px 0px;
+  color: white;
 }
 
 .seccion-contacto {
@@ -88,7 +87,7 @@ main .button:hover {
 }
 
 /*Fuentes y estilos utilizadas en secciones del index.html*/
-main .seccion-presentacion, main .seccion-menu, main .button, .seccion-nosotros, .seccion-contacto {
+main .seccion-presentacion, main .seccion-menu, main .btn, .seccion-nosotros, .seccion-contacto {
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   align-items: center;
@@ -189,8 +188,8 @@ h2, h3 {
 /* Mobile*/
 @media screen and (max-width: 480px) {
   /*Index.html*/
-  .navbar-item {
-    width: 30%;
+  #navbarSupportedContent, .navbar-toggler-icon, .navbar-toggler {
+    display: none;
   }
 
   .header-inicio {
@@ -274,6 +273,10 @@ h2, h3 {
 
   .seccion-menu {
     height: 600px;
+  }
+
+  #navbarSupportedContent, .navbar-toggler-icon, .button.navbar-toggler, .navbar-toggler {
+    display: none;
   }
 }
 

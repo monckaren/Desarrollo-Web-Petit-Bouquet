@@ -10,9 +10,10 @@
     
 /*Index.html*/
 
-    .navbar-item {
-        width: 30%;
+    #navbarSupportedContent, .navbar-toggler-icon, .navbar-toggler {
+        display: none;
     }
+    
     .header-inicio {
         font-size:15px ;
         justify-content: center;
@@ -99,7 +100,11 @@
        height: 600px;
    }
   
+   #navbarSupportedContent, .navbar-toggler-icon, .button.navbar-toggler, .navbar-toggler {
+    display: none;
+}
 
+    
 }
 
 

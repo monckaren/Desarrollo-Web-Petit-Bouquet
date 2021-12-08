@@ -49,8 +49,8 @@ main {
         
             
         }
-        .button{
-        color: purple;
+        .btn{
+        color: purple !important;
         @extend %fuentes;
         border: 2px solid rgb(43, 20, 95);
         border-radius: 10px;
@@ -58,18 +58,16 @@ main {
         font-size: 20px;
         padding: 10px;
         background-color: nth($colores, 2 );
+        text-decoration: none;
         
         
-
-        &:hover {
-            background-color: white;
-            color: black;
-            padding: 8px;
-            border: 2px solid gray;
+        }
+        .non-underline-link{
+            text-decoration: none;
         }
        
             }
-        }
+        
          
          .seccion-nosotros{
         background-image: url('./../Images/wade-austin-ellis-oL1qyesmg78-unsplash.jpg');
@@ -78,10 +76,12 @@ main {
         background-repeat: no-repeat;
         background-position-y: center;
         font-size: 20px;
-        height: 500px;
+        height: 400px;
         width: 90%;
         margin: auto; 
         padding: 150px 0px;
+        color: white;
+        
         }
         .seccion-contacto{
             @extend %fuentes;
