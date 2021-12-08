@@ -215,7 +215,11 @@ h2, h3 {
     height: 60px;
   }
 
-  .btn {
+  .img-brunch {
+    display: none;
+  }
+
+  .button {
     display: none;
   }
 
