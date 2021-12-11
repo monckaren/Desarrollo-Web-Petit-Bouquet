@@ -22,7 +22,7 @@
 </head>
 
 <body class="body"> 
-    <header class="header-inicio">
+    <header class="header-inicio fixed-top ">
     
         <!-- logo del local y barra navegable -->
         
@@ -30,7 +30,7 @@
         <div class="container-fluid fs-6 ">
           <a class="navbar-item w-100" href="index.html"><img src="./Images/WhatsApp Image 2021-10-27 at 12.59.18 PM.jpeg" alt="Logo Petit Bouquet" width="150"></a>
         </a>
-        <div class="btn-group" id="navbarSupportContentms">
+        <div class="btn-group " id="navbarSupportContentms">
             <button type="button" class="btn btn-outline-dark dropdown-toggle button-menu" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               MENÚ
             </button>
@@ -125,14 +125,17 @@
         
         <!--Imagen de ubicacion del local en google maps (temporal)-->
         <iframe class="inframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5618171465535!2d-58.43899011742714!3d-34.596406094217365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca74500dc453%3A0xc25f1b3fa86d81e2!2sAguirre%20625%2C%20C1414ASM%20CABA!5e0!3m2!1ses-419!2sar!4v1635616387250!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div>       
+        <div class="row">       
             
-            <h2 id="ubicacion" class="titulo"> UBICACIÓN </h2>
-            <p >
-                Nos podés encontrar en
-            </p>
-            <p class="parrafo-ubicacion"> Aguirre 625. Villa Crespo </p>
-            <p class="parrafo-ubicacion"> Franklin 666. Caballito  </p>
+            <h2 id="ubicacion" class="titulo mt-4"> UBICACIÓN </h2>
+            
+            <div class="col">
+               <p class="parrafo-ubicacion"> Aguirre 625. Villa Crespo </p> 
+            </div>
+            <div class="col">
+              <p class="parrafo-ubicacion"> Franklin 666. Caballito  </p>  
+            </div>
+            
             <p> Abrimos todos los dias de 10 a 19 hrs de Lunes a Jueves
                 y de 10 a 20 hrs Sábados y Domingos
             </p>
@@ -145,7 +148,7 @@
    
    
 <!-- Footer --> 
-<footer class="container footer">
+<footer class="container footer W-100">
     <div class="row">
         <div class="col">
             <h3 class="azul"> CONTANOS TU EXPERIENCIA </h3>
