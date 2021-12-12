@@ -13,6 +13,10 @@
     #navbarSupportedContent, .navbar-toggler-icon, .navbar-toggler {
         display: none;
     }
+
+    .btn-group {
+        margin-right: 45px;
+    }
     
     .header-inicio {
         font-size:15px ;
@@ -88,10 +92,7 @@
     .cafeteria {
         @include varios-parametros (100%, inline-block, 15px);
     }
-    .imagenes-cafeteria {
-    margin-left: 50px;
-     margin-left: 50px;
-    }
+   
 }
 
 /*Screen*/

@@ -128,8 +128,12 @@ body main .grupo-2 {
 }
 
 .titulo {
-  color: #f3a30e;
+  color: #fcd529;
   text-align: center;
+}
+
+.tlt-yellow {
+  color: #f8fc29;
 }
 
 .blanco {
@@ -181,6 +185,10 @@ h2, h3 {
   /*Index.html*/
   #navbarSupportedContent, .navbar-toggler-icon, .navbar-toggler {
     display: none;
+  }
+
+  .btn-group {
+    margin-right: 45px;
   }
 
   .header-inicio {
@@ -253,11 +261,6 @@ h2, h3 {
     width: 100%;
     display: inline-block;
     font-size: 15px;
-  }
-
-  .imagenes-cafeteria {
-    margin-left: 50px;
-    margin-left: 50px;
   }
 }
 /*Screen*/
