@@ -268,7 +268,7 @@ h2, h3 {
   }
 }
 /*Screen*/
-@media screen and (min-width: 481px) and (max-width: 1000px) {
+@media screen and (min-width: 428px) and (max-width: 1000px) {
   .seccion-nosotros {
     background-size: 1400px;
   }
