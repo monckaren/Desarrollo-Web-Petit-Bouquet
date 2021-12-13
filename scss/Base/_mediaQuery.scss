@@ -14,9 +14,7 @@
         display: none;
     }
 
-    .btn-group {
-        margin-right: 45px;
-    }
+    
     
     .header-inicio {
         font-size:15px ;
@@ -92,32 +90,44 @@
     .cafeteria {
         @include varios-parametros (100%, inline-block, 15px);
     }
+    .imagenes-cafeteria{
+        width: 60%;
+    }
+    .imagen-3, .imagen-2, .imagen-6, .imagen-9{
+        display: none;
+    }
    
 }
 
 /*Screen*/
-@media screen and (min-width: 481px) and (max-width: 960px) {
+@media screen and (min-width: 481px) and (max-width: 1000px) {
    
    .seccion-nosotros {
        background-size: 1400px;
    }
    .seccion-menu{
-       height: 600px;
+       height: 200px;
    }
   
-   #navbarSupportedContent, .navbar-toggler-icon, .button.navbar-toggler, .navbar-toggler {
+   #navbarSupportedContent, .navbar-toggler-icon, .button.navbar-toggler, .navbar-toggler , .img-brunch-1, .img-brunch, .imagen-9, .imagen-4, .imagen-8, .button{
     display: none;
+    
 }
+
 
     
 }
 
-@media screen and (min-width: 970) {
+
+
+
+@media screen and (min-width: 1000){
    .footer .container{
        width: 100%;
     
   
-     
+    
+  
    }
 }
    
