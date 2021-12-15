@@ -6,107 +6,116 @@
 
 /* Mobile*/
 
-@media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
     
 /*Index.html*/
 
     #navbarSupportedContent, .navbar-toggler-icon, .navbar-toggler {
-        display: none;
+    display: none;
     }
 
     
     
     .header-inicio {
-        font-size:15px ;
-        justify-content: center;
-        background-size: auto;
-        
+    font-size:15px ;
+    justify-content: center;
+    background-size: auto;
+    
 
         
     }
     .seccion-presentacion {
-        background-image:url(./Images/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
-        text-align: center;
-         @include varios-parametros(100%,flex,15px);
-        justify-content: center;
-        flex-direction: column;
-        height: 400px;
-      
-        
+    background-image:url(./Images/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
+    text-align: center;
+    @include varios-parametros(100%,flex,15px);
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    
+    
     }
 
     .seccion-menu {
-        justify-content: center;
-      width: 100%;
-      height: 60px;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
       
     }
 
     .img-brunch {
-        display: none;
+    display: none;
     }
 
 
     .button{
-        display: none;
+    display: none;
     }
 
     .seccion-nosotros {
-        font-size: 15px
+    font-size: 15px
         
         
     }
     .nosotros strong {
-        font-weight: 400;
-        font-size: 15px;
-        text-align: center;
-        color: white;
-        margin: o auto;
-          }
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin: o auto;
+        }
     .seccion-contacto {
-        font-size: 13px;
+    font-size: 13px;
     }
 
     /*Footer todas las paginas*/
     .footer {
-        @include varios-parametros (100%,inline-block,13px);
-        flex-direction: row;
+    @include varios-parametros (100%,inline-block,13px);
+    flex-direction: row;
         
     }
 
     .social-1, .social-2 {
-        display:inline;
+    display:inline;
+    padding-left: 50px;
     }
     
     /*Brunch.html*/
     .carousel  {
-    /*display: none;*/
     display: inline-block;
-     
-
     }
+    /*Almuerzos*/
+    .image-fluid, .img-sandwich {
+    width: 100%;
+    display: block;
+
+        
+    } 
+    
+
+
+    
     
     /*Cafeteria.html*/
     .cafeteria {
-        @include varios-parametros (100%, inline-block, 15px);
+    @include varios-parametros (100%, inline-block, 15px);
     }
     .imagenes-cafeteria{
-        width: 60%;
+    width: 60%;
     }
     .imagen-3, .imagen-2, .imagen-6, .imagen-9{
-        display: none;
+    display: none;
     }
    
 }
 
-/*Screen*/
-@media screen and (min-width: 426px) and (max-width: 1000px) {
+/*Pantallas intermedias entre ipad y mobile*/
+    @media screen and (min-width: 426px) and (max-width: 1000px) {
    
    .seccion-nosotros {
-       background-size: 1400px;
+    background-size: 1400px;
    }
    .seccion-menu{
-       height: 200px;
+    height: 200px;
    }
   
    #navbarSupportedContent, .navbar-toggler-icon, .button.navbar-toggler, .navbar-toggler , .img-brunch-1, .img-brunch, .imagen-9, .imagen-4, .imagen-8, .button{
@@ -121,13 +130,5 @@
 
 
 
-@media screen and (min-width: 1000){
-   .footer .container{
-       width: 100%;
-    
-  
-    
-  
-   }
-}
+
    
